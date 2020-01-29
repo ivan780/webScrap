@@ -34,7 +34,6 @@ if html.status_code == 200:
     image = divImage[2].find('img')
     body += createDiv(image['src'], title)
 
-
     f = open('titular.html', 'wb')
     start = """
     <html>
